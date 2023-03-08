@@ -596,7 +596,14 @@ function App() {
                 <button disabled={loading} class="btn" onClick={handleSend}>
                   Send
                 </button>
+                
               </div>
+              <br></br>
+              <div style={{paddingLeft:"8px",fontSize:"14px"}}>
+        The AI Bakery is powered by <a href="http://www.malaysiadelight.com">Malaysia Delight</a>
+        <br></br>
+
+    </div>
             </div>
           </div>
         </div>
@@ -605,12 +612,7 @@ function App() {
  
       </div>
     </main>
-    {/* <div class="">
-        <a href="https://www.getmarketestate.com">Powered by Market Estate</a>
-        <br></br>
-        <br></br>
-        <br></br>
-    </div> */}
+
     </>
   );
 }
