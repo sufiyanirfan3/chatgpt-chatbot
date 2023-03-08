@@ -306,7 +306,7 @@ function App() {
                   {loading && (
                     <div class="recieve chat">
                       <img src={chatLogo} alt="" class="avtar" />
-                      <p>Typing...</p>
+                      <p>Typing… please wait…</p>
                     </div>
                   )}
                 </div>
