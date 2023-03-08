@@ -34,7 +34,7 @@ function App() {
     // console.log({question})
     setLoading(true);
     axios
-      .post("https://chatbot-server-090w.onrender.com/chat", {
+      .post("https://chatbot-server-etailprice.onrender.com/chat", {
         question,
       })
       .then((response) => {
