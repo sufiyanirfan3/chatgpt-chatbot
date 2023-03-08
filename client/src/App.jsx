@@ -76,7 +76,7 @@ function App() {
                   padding: "0.2rem 0.5rem",
                 }}
               >
-                EXAMPLE PROMPTS
+                Top 10 AI Bakery Recipes
               </h3>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
