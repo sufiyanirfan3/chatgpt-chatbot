@@ -598,7 +598,7 @@ function App() {
                 </button>
                 
               </div>
-              <br></br>
+              {/* <br></br> */}
               <div style={{paddingLeft:"8px",fontSize:"14px"}}>
         The AI Bakery is powered by <a href="http://www.malaysiadelight.com">Malaysia Delight</a>
         <br></br>
