@@ -551,13 +551,13 @@ function App() {
           <div class="col-12 col-md-7 col-lg-7">
             <div class="container">
               <div>
-                <img
+                {/* <img
                   src={webLogo}
                   alt=""
                   width="200px"
                   height="50px"
                   // class="avtar"
-                />
+                /> */}
                 <div class="chats" id="chats">
                   {qna.map((qna) => {
                     if (qna.from == YOU) {
@@ -580,7 +580,7 @@ function App() {
                   {loading && (
                     <div class="recieve chat">
                       <img src={chatLogo} alt="" class="avtar" />
-                      <p>Typing… please wait…</p>
+                      <p>Emily is typing… please wait… </p>
                     </div>
                   )}
                 </div>
