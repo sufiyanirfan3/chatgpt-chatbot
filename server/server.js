@@ -28,7 +28,7 @@ app.post('/chat', async (req, res) => {
     const response = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages: [
-        
+        {role: "system", content: "You are ChatGPT, a large language model trained by OpenAI. Answer in detail."},
         {role: "user", content:question}
       ],
     });

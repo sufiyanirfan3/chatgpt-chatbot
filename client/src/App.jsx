@@ -297,7 +297,9 @@ function App() {
                     return (
                       <div class="recieve chat">
                         <img src={chatLogo} alt="" class="avtar" />
+                        <pre>
                         <p>{renderContent(qna)}</p>
+                        </pre>
                       </div>
                     );
                   })}
