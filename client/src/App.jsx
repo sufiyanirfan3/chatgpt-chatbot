@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import webLogo from "./assets/logo.png";
-import chatLogo from "./assets/chat.png";
+import chatLogo from "./assets/chat.jpeg";
 import userLogo from "./assets/user.png";
 import "./App.css";
 import { useRef } from "react";
