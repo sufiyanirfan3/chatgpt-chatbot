@@ -66,8 +66,8 @@ function App() {
     <>
     <main class="main-container">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-5 col-lg-5">
+        <div class="row"  style={{display:"flex",justifyContent:"flex-end"}}>
+          {/* <div class="col-12 col-md-5 col-lg-5">
             <div class="accordion" id="accordionExample">
               <h3
                 style={{
@@ -272,7 +272,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div class="col-12 col-md-7 col-lg-7">
             <div class="container">
@@ -331,12 +331,12 @@ function App() {
  
       </div>
     </main>
-    <div class="">
+    {/* <div class="">
         <a href="https://www.getmarketestate.com">Powered by Market Estate</a>
         <br></br>
         <br></br>
         <br></br>
-    </div>
+    </div> */}
     </>
   );
 }
