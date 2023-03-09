@@ -1,8 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import webLogo from "./assets/logo.png";
 import chatLogo from "./assets/chat.jpeg";
 import userLogo from "./assets/user.png";
+import recipeGif from "./assets/gif.gif";
 import "./App.css";
 import { useRef } from "react";
 import axios from "axios";
@@ -580,7 +580,7 @@ function App() {
                   {loading && (
                     <div class="recieve chat">
                       <img src={chatLogo} alt="" class="avtar" />
-                      <p>Emily is typing… please wait… </p>
+                      <p>Emily is typing… please wait… <img src={recipeGif} class="avtar"></img> </p>
                     </div>
                   )}
                 </div>
