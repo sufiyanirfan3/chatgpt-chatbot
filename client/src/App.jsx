@@ -580,7 +580,7 @@ function App() {
                   {loading && (
                     <div class="recieve chat">
                       <img src={chatLogo} alt="" class="avtar" />
-                      <p>Emily is typing… please wait… <img src={recipeGif} class="avtar"></img> </p>
+                      <p style={{fontSize:"13px"}}>Emily is typing… please wait… <img src={recipeGif} class="avtar"></img> </p>
                     </div>
                   )}
                 </div>
